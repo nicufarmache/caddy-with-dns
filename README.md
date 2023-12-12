@@ -6,7 +6,7 @@ docker-compose.yml example:
 
     services:
       caddy:
-        image: nicufrm/docker-with-dns
+        image: nicufrm/caddy-with-dns
         container_name: caddy
         restart: unless-stopped
         network_mode: host
